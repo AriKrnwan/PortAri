@@ -1,0 +1,99 @@
+.card-experience {
+    height: 370px;
+    background: linear-gradient(160deg, rgba(246,246,246,1) 0%, rgba(93,110,200,1) 50%, rgba(73,25,153,1) 100%);
+}
+
+.experience p {
+    font-size: 14px;
+}
+
+.intro-experience {
+    width: 290px;
+}
+
+.introEx h4 {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.img-experience {
+    bottom: -118px;
+    right: -80px;
+}
+
+.card-skill {
+    height: 370px;
+    background-color: #F05F12;
+}
+
+.skill p {
+    font-size: 14px;
+}
+
+.card-contact {
+    height: 370px;
+    background: linear-gradient(160deg, rgba(0,255,135,1) 0%, rgba(20,74,50,1) 100%);
+}
+
+.desc-contact p {
+    font-size: 14px;
+}
+
+.email, .insta {
+    background-color: rgb(255, 255, 255, .3);
+    border: 1px solid rgb(255, 255, 255, .2);
+}
+
+.big-star img,
+.small-star img {
+    filter: drop-shadow(0px 0px 15px #D7F339);
+}
+
+@keyframes moveDownUp {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(0); }
+}
+
+.circle-one {
+    animation: moveDownUp 3s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+.circle-two {
+    animation: moveDownUp 3s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+.circle-three {
+    animation: moveDownUp 3s ease-in-out infinite;
+    animation-delay: 0.9s;
+}
+
+.circle-four {
+    animation: moveDownUp 3s ease-in-out infinite;
+    animation-delay: 1.2s;
+}
+
+@keyframes blinkStar {
+    0%, 100% { filter: drop-shadow(0px 0px 10px #D7F339); }
+    50% { filter: drop-shadow(0px 0px 25px #D7F339); }
+}
+
+/* Big Star */
+.big-star img {
+    animation: blinkStar 2s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+
+/* Small Stars */
+.small-star:nth-of-type(1) img {
+    animation: blinkStar 2s infinite ease-in-out;
+    animation-delay: 1s;
+}
+
+.small-star:nth-of-type(2) img {
+    animation: blinkStar 2s infinite ease-in-out;
+    animation-delay: 1.5s;
+}
+

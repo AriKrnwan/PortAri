@@ -1,0 +1,21 @@
+.card-port {
+    height: 500px;
+    /* background-color: black; */
+}
+
+.icon-status {
+    height: 40px;
+    width: 40px;
+}
+
+.desc-port p, 
+.button-port .btn{
+    font-size: 14px;
+}
+
+.card-desc {
+    background: rgb(10, 10, 10, .3); /* Warna hitam transparan */
+    backdrop-filter: blur(6px); /* Efek blur kaca */
+    -webkit-backdrop-filter: blur(6px); /* Untuk kompatibilitas Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}

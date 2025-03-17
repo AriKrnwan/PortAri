@@ -1,0 +1,65 @@
+.wel-kiri {
+    height: 360px;
+    background: linear-gradient(205deg, rgba(10,10,10,1) 40%, rgba(17,211,243,0.5) 75%, rgba(173,253,162,1) 100%);
+    background-size: 200% 200%;
+    animation: moveGradient 8s infinite alternate ease-in-out;
+}
+
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.wel-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.job p {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.wel-desc {
+    width: 440px;
+}
+
+@media (max-width: 768px) { /* Ukuran HP */
+    .wel-desc {
+        width: 100%;
+    }
+}
+
+
+.desc p {
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.wel-kanan {
+    height: 360px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.wel-kanan:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}

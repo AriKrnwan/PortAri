@@ -1,0 +1,44 @@
+.but {
+    width: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 16px !important;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.but.active {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #201F2D !important;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Supaya navbar selalu di atas elemen lain */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.8) !important; /* Warna border putih */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 768px) { /* Ukuran HP */
+    .but {
+        text-align: end;
+    }
+
+    .navbar-nav{
+        align-items: end;
+        margin-top: 8px;
+    }
+}
+
+
+
+
+
