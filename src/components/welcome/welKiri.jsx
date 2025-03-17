@@ -11,7 +11,7 @@ function WelKiri() {
                     </div>
                     <div className="wel-name">
                         <div className="name">
-                            <h5 className='jakarta-semi-bold mb-1'>Hi, I'm Ari Kurniawan</h5>
+                            <h5 className='jakarta-semi-bold mb-1'>Hi, I'm Ari Kurniawa</h5>
                         </div>
                         <div className="job">
                             <p className='jakarta-medium m-0'>UI/UX Designer</p>
