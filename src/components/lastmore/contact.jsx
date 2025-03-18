@@ -17,10 +17,10 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact d-flex flex-column">
-                    <a href="https://instagram.com/arikrnwann">
+                    <a href="mailto:ari957752@gmail.com">
                         <div className="email d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><MdOutlineAlternateEmail size={'40px'}/></div>
                     </a>
-                    <a href="mailto:ari957752@gmail.com">
+                    <a href="https://instagram.com/arikrnwann">
                         <div className="insta d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><IoLogoInstagram size={'40px'}/></div>
                     </a>
                 </div>
