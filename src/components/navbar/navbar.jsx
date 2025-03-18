@@ -7,10 +7,14 @@ import { Link } from 'react-scroll';
 
 function NavPort() {
     return (
-        <Navbar expand="lg" className='py-3'>
-            <Container>
-                <Navbar.Brand href="#">
-                    <img src={Logo} alt="" />
+        <Navbar expand="lg" className='py-2' style={{height: '68px'}}>
+            <Container className='h-100'>
+                <Navbar.Brand href="#" className='p-0 h-100 d-flex align-items-center'>
+                    <img 
+                        src={Logo} 
+                        alt="" 
+                        style={{height: '60%', filter: 'drop-shadow(0px 0px 15px rgba(189, 200, 93, .8))'}} 
+                    />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

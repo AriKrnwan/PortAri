@@ -17,8 +17,12 @@ function Contact() {
                     </div>
                 </div>
                 <div className="contact d-flex flex-column">
-                    <div className="email d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><MdOutlineAlternateEmail size={'40px'}/></div>
-                    <div className="insta d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><IoLogoInstagram size={'40px'}/></div>
+                    <a href="https://instagram.com/arikrnwann">
+                        <div className="email d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><MdOutlineAlternateEmail size={'40px'}/></div>
+                    </a>
+                    <a href="mailto:ari957752@gmail.com">
+                        <div className="insta d-flex justify-content-center align-items-center" style={{width: '68px', height: '68px',}}><IoLogoInstagram size={'40px'}/></div>
+                    </a>
                 </div>
                 <div className="big-star position-absolute" style={{bottom: '24px',right: '24px'}}><img src={BigStar} alt="" /></div>
                 <div className="small-star position-absolute" style={{bottom: '200px',right: '32px'}}><img src={SmallStar} alt="" /></div>
