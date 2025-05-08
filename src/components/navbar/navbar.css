@@ -36,6 +36,11 @@
         align-items: end;
         margin-top: 8px;
     }
+
+    .show {
+        height: 100%;
+        background-color: #201F2D;
+    }
 }
 
 @keyframes shadowGlow {
