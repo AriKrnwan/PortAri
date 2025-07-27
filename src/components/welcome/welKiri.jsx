@@ -20,7 +20,7 @@ function WelKiri() {
                 </div>
                 <div className="wel-desc d-flex flex-column gap-2">
                     <div className="wellcome">
-                        <h1>Wellcome to my website.</h1>
+                        <h1>Welcome to my website.</h1>
                     </div>
                     <div className="desc">
                         <p>In this website you can get to know me better as a UI/UX Designer. You can see what i have done, my experience, and my contact if you wanna contact me.</p>
