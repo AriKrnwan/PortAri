@@ -19,3 +19,12 @@
     -webkit-backdrop-filter: blur(6px); /* Untuk kompatibilitas Safari */
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.modal-90w {
+    max-width: none !important;
+    width: 90% !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgb(73, 80, 87) !important;
+}
